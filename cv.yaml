@@ -189,7 +189,7 @@ projects:
     dates: 2017
     details: A mode for Processing that enables users to write Processing sketches using the R language.
   - name: Scrala
-    url: hhttps://github.com/gaocegege/scrala
+    url: https://github.com/gaocegege/scrala
     dates: 2017
     details: A scala crawler(spider) framework, inspired by scrapy.
   - name: Maintainer

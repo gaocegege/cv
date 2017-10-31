@@ -223,7 +223,7 @@ Linux, mac OS
 <tr>
   <td class='col-md-3'>2017</td>
   <td>
-    <strong><a href="hhttps://github.com/gaocegege/scrala">Scrala</a></strong><br>
+    <strong><a href="https://github.com/gaocegege/scrala">Scrala</a></strong><br>
     A scala crawler(spider) framework, inspired by scrapy.
   </td>
 </tr>
