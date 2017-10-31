@@ -1,0 +1,161 @@
+@inproceedings{donti2017task,
+  title={Task-based End-to-end Model Learning},
+  author={Donti, Priya L and Amos, Brandon and Kolter, J Zico},
+  year={2017},
+  booktitle={NIPS},
+  _venue={NIPS},
+  codeurl={https://github.com/locuslab/e2e-model-learning},
+  url={http://arxiv.org/abs/1703.04529},
+  abstract={
+    As machine learning techniques have become more ubiquitous, it has
+    become common to see machine learning prediction algorithms operating
+    within some larger process. However, the criteria by which we train
+    machine learning algorithms often differ from the ultimate criteria on
+    which we evaluate them. This paper proposes an end-to-end approach for
+    learning probabilistic machine learning models within the context of
+    stochastic programming, in a manner that directly captures the
+    ultimate task-based objective for which they will be used. We then
+    present two experimental evaluations of the proposed approach, one as
+    applied to a generic inventory stock problem and the second to a
+    real-world electrical grid scheduling task. In both cases, we show
+    that the proposed approach can outperform both a traditional modeling
+    approach and a purely black-box policy optimization approach.
+  }
+}
+
+@inproceedings{amos2017optnet,
+  title = "{OptNet: Differentiable Optimization as a Layer in Neural Networks}",
+  author={Brandon Amos and J. Zico Kolter},
+  booktitle={ICML},
+  _venue={ICML},
+  codeurl={https://github.com/locuslab/optnet},
+  year={2017},
+  url={http://arxiv.org/abs/1703.00443},
+  abstract={
+    This paper presents OptNet, a network architecture that integrates
+    optimization problems (here, specifically in the form of quadratic programs)
+    as individual layers in larger end-to-end trainable deep networks.
+    These layers encode constraints and complex dependencies
+    between the hidden states that traditional convolutional and
+    fully-connected layers often cannot capture.
+    In this paper, we explore the foundations for such an architecture:
+    we show how techniques from sensitivity analysis, bilevel
+    optimization, and implicit differentiation can be used to
+    exactly differentiate through these layers and with respect
+    to layer parameters;
+    we develop a highly efficient solver for these layers that exploits fast
+    GPU-based batch solves within a primal-dual interior point method, and which
+    provides backpropagation gradients with virtually no additional cost on top of
+    the solve;
+    and we highlight the application of these approaches in several problems.
+    In one notable example, we show that the method is
+    capable of learning to play mini-Sudoku (4x4) given just input and output games,
+    with no a priori information about the rules of the game;
+    this highlights the ability of our architecture to learn hard
+    constraints better than other neural architectures.
+  }
+}
+
+
+@inproceedings{amos2017input,
+  title={Input Convex Neural Networks},
+  author={Brandon Amos and Lei Xu and J. Zico Kolter},
+  booktitle={ICML},
+  _venue={ICML},
+  codeurl={https://github.com/locuslab/icnn},
+  year={2017},
+  url={http://arxiv.org/abs/1609.07152},
+  abstract={
+    This paper presents the input convex neural network
+    architecture. These are scalar-valued (potentially deep) neural
+    networks with constraints on the network parameters such that the
+    output of the network is a convex function of (some of) the inputs.
+    The networks allow for efficient inference via optimization over some
+    inputs to the network given others, and can be applied to settings
+    including structured prediction, data imputation, reinforcement
+    learning, and others. In this paper we lay the basic groundwork for
+    these models, proposing methods for inference, optimization and
+    learning, and analyze their representational power. We show that many
+    existing neural network architectures can be made input-convex with
+    a minor modification, and develop specialized optimization
+    algorithms tailored to this setting. Finally, we highlight the
+    performance of the methods on multi-label prediction, image
+    completion, and reinforcement learning problems, where we show
+    improvement over the existing state of the art in many cases.
+  }
+}
+
+@inproceedings{zhao2016collapsed,
+  title={{{Collapsed Variational Inference for Sum-Product Networks}}},
+  author={Han Zhao and Tameem Adel and Geoff Gordon and Brandon Amos},
+  booktitle={ICML},
+  _venue={ICML},
+  year={2016},
+  url={http://www.cs.cmu.edu/~hzhao1/papers/ICML2016/BL-SPN-main.pdf},
+  abstract={
+    Sum-Product Networks (SPNs) are probabilistic inference machines that admit
+    exact inference in linear time in the size of the network. Existing
+    parameter learning approaches for SPNs are largely based on the maximum
+    likelihood principle and hence are subject to overfitting compared to
+    more Bayesian approaches. Exact Bayesian posterior inference for SPNs is
+    computationally intractable. Both standard variational inference and
+    posterior sampling for SPNs are computationally infeasible even for
+    networks of moderate size due to the large number of local latent
+    variables per instance. In this work, we propose a novel deterministic
+    collapsed variational inference algorithm for SPNs that is
+    computationally efficient, easy to implement and at the same time allows
+    us to incorporate prior information into the optimization formulation.
+    Extensive experiments show a significant improvement in accuracy compared
+    with a maximum likelihood based approach.
+  }
+}
+
+@techreport{amos2016openface,
+  title={OpenFace: A general-purpose face recognition
+    library with mobile applications},
+  author={Amos, Brandon and Bartosz Ludwiczuk and Satyanarayanan, Mahadev},
+  _venue={CMU},
+  year={2016},
+  institution={Technical Report CMU-CS-16-118, CMU School of Computer Science},
+  url={http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf},
+  codeurl={https://cmusatyalab.github.io/openface},
+  abstract={
+    Cameras are becoming ubiquitous in the Internet of Things (IoT) and
+    can use face recognition technology to improve context. There is a
+    large accuracy gap between today's publicly available face recognition
+    systems and the state-of-the-art private face recognition
+    systems. This paper presents our OpenFace face recognition library
+    that bridges this accuracy gap. We show that OpenFace provides
+    near-human accuracy on the LFW benchmark and present a new
+    classification benchmark for mobile scenarios. This paper is intended
+    for non-experts interested in using OpenFace and provides a light
+    introduction to the deep neural network techniques we use.
+
+    We released OpenFace in October 2015 as an open source library under
+    the Apache 2.0 license. It is available at:
+    <http://cmusatyalab.github.io/openface/>
+  }
+}
+
+@article{amos2014QNSTOP,
+  title={{{QNSTOP-QuasiNewton Algorithm for Stochastic Optimization}}},
+  author={Brandon Amos and David Easterling and Layne Watson and
+    William Thacker and Brent Castle and Michael Trosset},
+  journal={},
+  _venue={VT},
+  year={2014},
+  keywords={journal},
+  url={https://vtechworks.lib.vt.edu/bitstream/handle/10919/49672/qnTOMS14.pdf},
+  abstract={
+    QNSTOP consists of serial and parallel (OpenMP) Fortran 2003 codes for the
+    quasi-Newton stochastic optimization method of Castle and Trosset. For
+    stochastic problems, convergence theory exists for the particular
+    algorithmic choices and parameter values used in QNSTOP. Both the parallel
+    driver subroutine, which offers several parallel decomposition strategies,
+    and the serial driver subroutine can be used for stochastic optimization or
+    deterministic global optimization, based on an input switch. QNSTOP is
+    particularly effective for “noisy” deterministic problems, using only
+    objective function values. Some performance data for computational systems
+    biology problems is given.
+  }
+}

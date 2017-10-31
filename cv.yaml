@@ -1,0 +1,234 @@
+name:
+  first: Ce
+  last: Gao
+phone: ~(+86)~15921592066
+email: gaocegege@hotmail.com
+pdf: /data/cv.pdf
+src: https://github.com/gaocegege/cv
+url: "gaocegege.github.io"
+social:
+  github: gaocegege
+  # twitter: brandondamos
+  linkedin: gaocegege
+  # google_scholar: d8gdZR4AAAAJ
+# Erdős  number is at most 4.
+# (Brandon Amos -> Layne Watson -> Leroy Kelly -> Zoltán Füredi -> Paul Erdős )
+
+# LaTeX formatting.
+style: banking # casual, classic, oldstyle, or banking
+color: blue # blue, orange, green, red, purple, grey and black
+color2: '0.25,0.25,0.25' # Make the font under the name a darker grey.
+
+# (tag, section type, title)
+order:
+  # - [about, NONE]
+  # - [news, News]
+  - [education, Education]
+  # - [research, Research Experience]
+  # - [selected_publications, Selected Publications]
+  # - [NEWPAGE, NEWPAGE]
+  # - [teaching, Teaching Experience]
+  - [industry, Industry Experience]
+  - [activities, Activities]
+  # - [coursework, SJTU Graduate Coursework]
+  - [honors, Honors \& Awards]
+  - [skills, Skills]
+  - [NEWPAGE, NEWPAGE]
+  - [projects, Projects]
+  # - [all_publications, All Publications]
+
+about: ''
+
+news:
+  - date: ''
+    info: ''
+
+education:
+  - school: Shanghai Jiao Tong University
+    location: Shanghai, China
+    degree: M.S. in Software Engineering
+    dates: Sep 2016 -- Present
+
+  - school: Shanghai Jiao Tong University
+    location: Shanghai, China
+    degree: B.E. in Software Engineering
+    dates: Sep 2012 -- May 2016
+
+  - school: Yangjing High School
+    location: Shanghai, China
+    dates: Sep 2009 -- May 2012
+
+research:
+  - place: 
+    location: 
+    title: 
+    advisor: 
+    dates: 
+    area: 
+
+industry:
+  - place: Morgan Stanley
+    location: Shanghai, China
+    title: Project Intern
+    dates: Mar 2017 -- Sep 2017
+    area: Distributed Systems
+    details:
+      - Optimized the scheduler in treadmill, which is the open source container management system
+      - Implemented scheduling logics similar to Kubernetes
+  - place: Alipay
+    location: Hangzhou, China
+    title: Research and Development Engineer Intern
+    dates: July 2015 -- Sep 2015
+    area: International Business Logics
+    details:
+      - Implemented some business logics and logics about operation platform
+  - place: TouchPal
+    location: Shanghai, China
+    title: Data Engineer Intern
+    dates: Sep 2015 -- Sep 2015
+    area: Web Crawler
+    details:
+      - Migrated the web crawler code to the new architecture
+
+activities:
+  - place: Google Code-in 2017
+    location: Shanghai, China
+    title: Mentor
+    dates: Dec 2017 -- Feb 2018
+    area: Code Linting Framework
+    details:
+      - Help coala community to guide the students to finish some tasks related to open source projects
+      - Evaluate the work, provide the feedback
+  - place: Google Summer of Code 2017
+    location: Shanghai, China
+    title: Student Participant
+    dates: May 2017 -- Sep 2017
+    area: Data Visualization
+    details:
+      - 1318 out of 20651 applicants\textbf{(6\%)} chosen to be a participant
+      - Implemented R language mode for Processing
+      - Cooperated with the community to support Processing libraries and R packages
+      - \href{https://github.com/gaocegege/Processing.R}{\bf Processing.R} has \textbf{70 stars} in GitHub, which becomes one of the most popular GSoC projects
+  - place: LinuxCon China
+    location: Beijing, China
+    title: Academic Participant
+    dates: Jun 2017
+  - place: MOOC and Open Source Group in Dongyue Lab
+    location: Shanghai, China
+    title: Leader
+    dates: Dec 2016
+  - place: i-Lab Hackathon
+    location: Shanghai, China
+    title: Participant
+    dates: Sep 2016
+  - place: Container Technology Conference in Shanghai
+    location: Shanghai, China
+    title: Participant
+    dates: Jun 2016
+  - place: CCTC Cloud Computing Technology Conference
+    location: Beijing, China
+    title: Participant
+    dates: May 2016
+  - place: Container Technology Conference in Beijing
+    location: Beijing, China
+    title: Participant
+    dates: Jan 2016
+  - place: HackShanghai
+    location: Shanghai, China
+    title: Participant
+    dates: Nov 2015
+  - place: Apache RoadShow China
+    location: Beijing, China
+    title: Participant
+    dates: Oct 2015
+  - place: HackShanghai
+    location: Shanghai, China
+    title: Participant
+    dates: Oct 2014
+    area: Open Source
+  - place: Debate Team of School of Software in SJTU
+    location: Shanghai, China
+    title: Member
+    dates: Dec 2013 -- Sep 2015
+    area: Debate
+
+skills:
+  - title: Languages
+    details: Bash, C, C++, Go, HTML, Java, JavaScript,
+      \LaTeX, Lua, Make, MatLab, Processing, Python, R, Scala
+  - title: Systems
+    details: Linux, mac OS
+
+honors:
+  - title: 2nd Prize in Go Hack 2017
+    year: 2017
+  - title: Intel Scholarship
+    year: 2017
+  - title: 1st Prize in 7th China Students Service Outsourcing Innovation \& Entrepreneurship
+    year: 2016
+  - title: 2nd Prize in 13th National Post-Graduate Mathematic Contest in Modeling
+    year: 2016
+  - title: 2nd Prize in Interdisciplinary Contest In Modeling
+    year: 2015
+  - title: 1st Prize in Shanghai area of National Mathematical Contest in Modeling
+    year: 2014
+  - title: 2nd Prize in DaZhongDianPing Geek Challenge
+    year: 2014
+
+projects:
+  - name: Personal Blog and Website
+    url: http://gaocegege.com/
+    dates: 2014
+    details: Hosted on GitHub Pages. Uses {\bf Markdown} for posts and {\bf Jekyll} for static HTML generation.
+  - name: Cyclone
+    dates: 2017
+    url: https://github.com/caicloud/cyclone
+    details: A cloud native CI/CD platform built for container workflow.
+  - name: Processing.R
+    url: http://github.com/gaocegege/Processing.R
+    dates: 2017
+    details: A mode for Processing that enables users to write Processing sketches using the R language.
+  - name: Scrala
+    url: hhttps://github.com/gaocegege/scrala
+    dates: 2017
+    details: A scala crawler(spider) framework, inspired by scrapy.
+  - name: Maintainer
+    url: https://github.com/gaocegege/maintainer
+    dates: 2017
+    details: A CLI app which helps you to generate AUTHORS, CHANGELOG.md, CONTRIBUTING.md and so on based on the repository in GitHub.
+  - name: Tosknight
+    url: https://github.com/siglt/tosknight
+    dates: 2017
+    details: A website to records the changes of terms of service in China.
+  - name: scala-renren
+    url: https://github.com/gaocegege/scala-renren
+    dates: 2016
+    details: A graphical view of the relationships between renren users.
+  - name: scala-github-relationship
+    url: https://github.com/gaocegege/scala-github-relationship
+    dates: 2016
+    details: A graphical view of the relationships between GitHub users.
+  - name: coala-vs-code
+    url: https://github.com/coala/coala-vs-code
+    dates: 2016
+    details: A visual studio code plugin working via Language Server.
+  - name: Deedy-Resume-for-Chinese
+    url: https://github.com/gaocegege/Deedy-Resume-for-Chinese
+    dates: 2016
+    details: A resume template that caters to a Computer Science student in China. 
+  - name: DroneCraft
+    url: https://github.com/gaocegege/dronecraft
+    dates: 2016
+    details: A Minecrat server to play Drone CI in Minecraft. 
+  - name: Flower Power in Processing
+    url: https://github.com/gaocegege/flower-power
+    dates: 2016
+    details: An implementation for flower power in Processing.
+  - name: Infra in Go
+    url: https://github.com/gaocegege/infrastructure-in-golang
+    dates: 2016
+    details: An repository to run infra in Go.
+  - name: csdn-blog-export
+    url: https://github.com/gaocegege/csdn-blog-export
+    dates: 2015
+    details: A tool to export blog articles to markdown or html.

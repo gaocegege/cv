@@ -1,0 +1,20 @@
+~< extends "section.tex" >~
+
+~< block body >~
+% \vspace{-6mm}
+% \hfill
+% Google Scholar ID:
+% \href{https://scholar.google.com/citations?user=<< scholar_id >>}{<< scholar_id >>}
+% \vspace{2mm}
+
+\renewcommand*{\bibfont}{\small}
+
+~< for p in content.categories >~
+\subsection{<<p.heading>>}
+\begin{refsection}[publications/<<p.file>>]
+\nocite{*}
+\printbibliography[heading=none,prefixnumbers=<<p.prefix>>]
+\end{refsection}
+~< endfor >~
+
+~< endblock body >~
