@@ -197,15 +197,87 @@ Linux, mac OS
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Projects
+## <i class="fa fa-chevron-right"></i> Open Source Contributions
 <table class="table table-hover">
 <tr>
-  <td class='col-md-3'>2014</td>
   <td>
-    <strong><a href="http://gaocegege.com/">Personal Blog and Website</a></strong><br>
-    Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
+    <strong><a href="https://github.com/caicloud/cyclone/commits/master?author=gaocegege">caicloud/cyclone</a></strong><br>
+    Implemented the YAML runtime and docker integration.
   </td>
 </tr>
+<tr>
+  <td>
+    <strong><a href="https://github.com/coala/coala-vs-code/commits/master?author=gaocegege">coala/coala-vs-code</a></strong><br>
+    Implemented the Visual Studio Code plugin for coala.
+  </td>
+</tr>
+<tr>
+  <td>
+    <strong><a href="https://github.com/pingcap/tidb/commits/master?author=gaocegege">pingcap/tidb</a></strong><br>
+    Imported test coverage test and added truncate function.
+  </td>
+</tr>
+<tr>
+  <td>
+    <strong><a href="https://github.com/docker/docker/commits/master?author=gaocegege">moby/moby</a></strong><br>
+    Added a option for service subcommand.
+  </td>
+</tr>
+<tr>
+  <td>
+    <strong><a href="https://github.com/opencontainers/runc/commits/master?author=gaocegege">opencontainers/runc</a></strong><br>
+    Fixed a bug for upstream.
+  </td>
+</tr>
+<tr>
+  <td>
+    <strong><a href="https://github.com/alibaba/pouch/commits?author=gaocegege">alibaba/pouch</a></strong><br>
+    Updated the go version in Travis CI and removed the path hack.
+  </td>
+</tr>
+<tr>
+  <td>
+    <strong><a href="https://github.com/weijianwen/SJTUThesis/commits/master?author=gaocegege">weijianwen/SJTUThesis</a></strong><br>
+    Added English abstract and replaced Adobe fonts with fandol.
+  </td>
+</tr>
+<tr>
+  <td>
+    <strong><a href="https://github.com/dyweb/electsys-safari/commits/master?author=gaocegege">dyweb/electsys-safari</a></strong><br>
+    Implemented the course selection system plugin in Safari.
+  </td>
+</tr>
+</table>
+
+
+## <i class="fa fa-chevron-right"></i> Talks
+<table class="table table-hover">
+<tr>
+  <td class='col-md-3'>2017</td>
+  <td>
+    <strong><a href="http://slides.com/gaocegege/processing-r">Processing.R: Using R Language to Play with New Media Art</a></strong><br>
+    The 10th China R Conference (Shanghai) and East China Regional Data Science Conference
+  </td>
+</tr>
+<tr>
+  <td class='col-md-3'>2017</td>
+  <td>
+    <strong><a href="http://slides.com/gaocegege/processing/">Processing: Play with New Media Art</a></strong><br>
+    Dongyue Meetup 2017
+  </td>
+</tr>
+<tr>
+  <td class='col-md-3'>2016</td>
+  <td>
+    <strong><a href="http://slides.com/gaocegege/docker/">Docker: Better Devops</a></strong><br>
+    Dongyue Meetup 2016
+  </td>
+</tr>
+</table>
+
+
+## <i class="fa fa-chevron-right"></i> Projects
+<table class="table table-hover">
 <tr>
   <td class='col-md-3'>2017</td>
   <td>
@@ -237,8 +309,15 @@ Linux, mac OS
 <tr>
   <td class='col-md-3'>2017</td>
   <td>
+    <strong><a href="https://github.com/prism-river/killy">Killy</a></strong><br>
+    A Minecraft plugin to play TiDB in Minecraft.
+  </td>
+</tr>
+<tr>
+  <td class='col-md-3'>2017</td>
+  <td>
     <strong><a href="https://github.com/siglt/tosknight">Tosknight</a></strong><br>
-    A website to records the changes of terms of service in China.
+    A website to crawl, archive and trackschanges in terms of service and privacy policies in China, similar to https://tosback.org/.
   </td>
 </tr>
 <tr>
@@ -272,6 +351,13 @@ Linux, mac OS
 <tr>
   <td class='col-md-3'>2016</td>
   <td>
+    <strong><a href="https://github.com/SJTU-SE/awesome-se">awesome-se</a></strong><br>
+    A repository to collect the homeworks and projects in School of Software, Shanghai Jiao Tong University.
+  </td>
+</tr>
+<tr>
+  <td class='col-md-3'>2016</td>
+  <td>
     <strong><a href="https://github.com/gaocegege/dronecraft">DroneCraft</a></strong><br>
     A Minecrat server to play Drone CI in Minecraft.
   </td>
@@ -295,6 +381,13 @@ Linux, mac OS
   <td>
     <strong><a href="https://github.com/gaocegege/csdn-blog-export">csdn-blog-export</a></strong><br>
     A tool to export blog articles to markdown or html.
+  </td>
+</tr>
+<tr>
+  <td class='col-md-3'>2014</td>
+  <td>
+    <strong><a href="http://gaocegege.com/">Personal Blog and Website</a></strong><br>
+    Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
   </td>
 </tr>
 </table>

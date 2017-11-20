@@ -1,0 +1,12 @@
+~< extends "section.tex" >~
+
+~< block body >~
+~< for item in items >~
+    \cvlistitem{
+      \href{<< item.url >>}{<< item.name >>}
+      \begin{itemize}
+      \item << item.details >>
+      \end{itemize}
+    }
+~< endfor >~
+~< endblock body >~

@@ -34,6 +34,9 @@ order:
   - [honors, Honors \& Awards]
   - [skills, Skills]
   - [NEWPAGE, NEWPAGE]
+  - [contributions, Open Source Contributions]
+  - [talks, Talks]
+  - [NEWPAGE, NEWPAGE]
   - [projects, Projects]
   # - [all_publications, All Publications]
 
@@ -175,11 +178,47 @@ honors:
   - title: 2nd Prize in DaZhongDianPing Geek Challenge
     year: 2014
 
+contributions:
+  - name: caicloud/cyclone
+    url: https://github.com/caicloud/cyclone/commits/master?author=gaocegege
+    details: Implemented the YAML runtime and docker integration.
+  - name: coala/coala-vs-code
+    url: https://github.com/coala/coala-vs-code/commits/master?author=gaocegege
+    details: Implemented the Visual Studio Code plugin for coala.
+  - name: pingcap/tidb
+    url: https://github.com/pingcap/tidb/commits/master?author=gaocegege
+    details: Imported test coverage test and added truncate function.
+  - name: moby/moby
+    url: https://github.com/docker/docker/commits/master?author=gaocegege
+    details: Added a option for service subcommand.
+  - name: opencontainers/runc
+    url: https://github.com/opencontainers/runc/commits/master?author=gaocegege
+    details: Fixed a bug for upstream.
+  - name: alibaba/pouch
+    url: https://github.com/alibaba/pouch/commits?author=gaocegege
+    details: Updated the go version in Travis CI and removed the path hack.
+  - name: weijianwen/SJTUThesis
+    url: https://github.com/weijianwen/SJTUThesis/commits/master?author=gaocegege
+    details: Added English abstract and replaced Adobe fonts with fandol.
+  - name: dyweb/electsys-safari
+    url: https://github.com/dyweb/electsys-safari/commits/master?author=gaocegege
+    details: Implemented the course selection system plugin in Safari.
+
+talks:
+  - name: "Processing.R: Using R Language to Play with New Media Art"
+    url: http://slides.com/gaocegege/processing-r
+    dates: 2017
+    details: The 10th China R Conference (Shanghai) and East China Regional Data Science Conference
+  - name: "Processing: Play with New Media Art"
+    url: http://slides.com/gaocegege/processing/
+    dates: 2017
+    details: Dongyue Meetup 2017
+  - name: "Docker: Better Devops"
+    url: http://slides.com/gaocegege/docker/
+    dates: 2016
+    details: Dongyue Meetup 2016
+
 projects:
-  - name: Personal Blog and Website
-    url: http://gaocegege.com/
-    dates: 2014
-    details: Hosted on GitHub Pages. Uses {\bf Markdown} for posts and {\bf Jekyll} for static HTML generation.
   - name: Cyclone
     dates: 2017
     url: https://github.com/caicloud/cyclone
@@ -196,10 +235,14 @@ projects:
     url: https://github.com/gaocegege/maintainer
     dates: 2017
     details: A CLI app which helps you to generate AUTHORS, CHANGELOG.md, CONTRIBUTING.md and so on based on the repository in GitHub.
+  - name: Killy
+    url: https://github.com/prism-river/killy
+    dates: 2017
+    details: A Minecraft plugin to play TiDB in Minecraft.
   - name: Tosknight
     url: https://github.com/siglt/tosknight
     dates: 2017
-    details: A website to records the changes of terms of service in China.
+    details: A website to crawl, archive and trackschanges in terms of service and privacy policies in China, similar to https://tosback.org/.
   - name: scala-renren
     url: https://github.com/gaocegege/scala-renren
     dates: 2016
@@ -216,6 +259,10 @@ projects:
     url: https://github.com/gaocegege/Deedy-Resume-for-Chinese
     dates: 2016
     details: A resume template that caters to a Computer Science student in China. 
+  - name: awesome-se
+    url: https://github.com/SJTU-SE/awesome-se
+    dates: 2016
+    details: A repository to collect the homeworks and projects in School of Software, Shanghai Jiao Tong University.
   - name: DroneCraft
     url: https://github.com/gaocegege/dronecraft
     dates: 2016
@@ -232,3 +279,7 @@ projects:
     url: https://github.com/gaocegege/csdn-blog-export
     dates: 2015
     details: A tool to export blog articles to markdown or html.
+  - name: Personal Blog and Website
+    url: http://gaocegege.com/
+    dates: 2014
+    details: Hosted on GitHub Pages. Uses {\bf Markdown} for posts and {\bf Jekyll} for static HTML generation.
