@@ -57,19 +57,32 @@ education:
     degree: B.E. in Software Engineering
     dates: Sep 2012 -- May 2016
 
+  - school: Shanghai Jiao Tong University
+    location: Shanghai, China
+    degree: LL.B in Law
+    dates: Sep 2013 -- May 2016
+
   - school: Yangjing High School
     location: Shanghai, China
     dates: Sep 2009 -- May 2012
 
 research:
-  - place: 
-    location: 
-    title: 
-    advisor: 
-    dates: 
-    area: 
+  - place:
+    location:
+    title:
+    advisor:
+    dates:
+    area:
 
 industry:
+  - place: Caicloud
+    location: Shanghai, China
+    title: Joint Research Collaborator
+    dates: Nov 2017 -- Nov 2018
+    area: Distributed Systems
+    details:
+      - Implemented operator for TensorFlow on Kubernetes
+      - Maintain kubeflow open source projects
   - place: Morgan Stanley
     location: Shanghai, China
     title: Project Intern
@@ -179,6 +192,9 @@ honors:
     year: 2014
 
 contributions:
+  - name: kubeflow/tf-operator
+    url: https://github.com/kubeflow/tf-operator
+    details: Maintain the project
   - name: caicloud/cyclone
     url: https://github.com/caicloud/cyclone/commits/master?author=gaocegege
     details: Implemented the YAML runtime and docker integration.
@@ -258,7 +274,7 @@ projects:
   - name: Deedy-Resume-for-Chinese
     url: https://github.com/gaocegege/Deedy-Resume-for-Chinese
     dates: 2016
-    details: A resume template that caters to a Computer Science student in China. 
+    details: A resume template that caters to a Computer Science student in China.
   - name: awesome-se
     url: https://github.com/SJTU-SE/awesome-se
     dates: 2016
@@ -266,7 +282,7 @@ projects:
   - name: DroneCraft
     url: https://github.com/gaocegege/dronecraft
     dates: 2016
-    details: A Minecrat server to play Drone CI in Minecraft. 
+    details: A Minecrat server to play Drone CI in Minecraft.
   - name: Flower Power in Processing
     url: https://github.com/gaocegege/flower-power
     dates: 2016
