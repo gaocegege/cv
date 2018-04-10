@@ -1,7 +1,3 @@
-## CV
-
-** This repo is a fork of [https://github.com/bamos/cv](https://github.com/bamos/cv) **
-
 ## <i class="fa fa-chevron-right"></i> Education
 
 <table class="table table-hover">
@@ -22,6 +18,14 @@
     </td>
   </tr>
   <tr>
+    <td class="col-md-3">Sep 2013 - May 2016</td>
+    <td>
+        <strong>LL.B in Law</strong>
+        <br>
+      Shanghai Jiao Tong University
+    </td>
+  </tr>
+  <tr>
     <td class="col-md-3">Sep 2009 - May 2012</td>
     <td>
       Yangjing High School
@@ -32,6 +36,12 @@
 
 ## <i class="fa fa-chevron-right"></i> Industry Experience
 <table class="table table-hover">
+<tr>
+  <td class='col-md-3'>Nov 2017 - Nov 2018</td>
+  <td><strong>Caicloud</strong>, Joint Research Collaborator</td>
+</tr>
+<tr>
+</tr>
 <tr>
   <td class='col-md-3'>Mar 2017 - Sep 2017</td>
   <td><strong>Morgan Stanley</strong>, Project Intern</td>
@@ -55,6 +65,12 @@
 
 ## <i class="fa fa-chevron-right"></i> Activities
 <table class="table table-hover">
+<tr>
+  <td class='col-md-3'>Mar 2018 - Aug 2018</td>
+  <td><strong>Google Summer of Code 2018</strong>, Mentor</td>
+</tr>
+<tr>
+</tr>
 <tr>
   <td class='col-md-3'>Dec 2017 - Feb 2018</td>
   <td><strong>Google Code-in 2017</strong>, Mentor</td>
@@ -203,6 +219,18 @@ Linux, mac OS
 
 ## <i class="fa fa-chevron-right"></i> Open Source Contributions
 <table class="table table-hover">
+<tr>
+  <td>
+    <strong><a href="https://github.com/kubeflow/hp-tuning">kubeflow/hp-tuning</a></strong><br>
+    Maintain the project
+  </td>
+</tr>
+<tr>
+  <td>
+    <strong><a href="https://github.com/kubeflow/tf-operator">kubeflow/tf-operator</a></strong><br>
+    Maintain the project
+  </td>
+</tr>
 <tr>
   <td>
     <strong><a href="https://github.com/caicloud/cyclone/commits/master?author=gaocegege">caicloud/cyclone</a></strong><br>
