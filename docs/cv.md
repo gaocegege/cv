@@ -66,6 +66,12 @@
 ## <i class="fa fa-chevron-right"></i> Activities
 <table class="table table-hover">
 <tr>
+  <td class='col-md-3'>Mar 2018 - Aug 2018</td>
+  <td><strong>Google Summer of Code 2018</strong>, Mentor</td>
+</tr>
+<tr>
+</tr>
+<tr>
   <td class='col-md-3'>Dec 2017 - Feb 2018</td>
   <td><strong>Google Code-in 2017</strong>, Mentor</td>
 </tr>
@@ -213,6 +219,12 @@ Linux, mac OS
 
 ## <i class="fa fa-chevron-right"></i> Open Source Contributions
 <table class="table table-hover">
+<tr>
+  <td>
+    <strong><a href="https://github.com/kubeflow/hp-tuning">kubeflow/hp-tuning</a></strong><br>
+    Maintain the project
+  </td>
+</tr>
 <tr>
   <td>
     <strong><a href="https://github.com/kubeflow/tf-operator">kubeflow/tf-operator</a></strong><br>

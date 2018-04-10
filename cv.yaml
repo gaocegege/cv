@@ -107,6 +107,11 @@ industry:
       - Migrated the web crawler code to the new architecture
 
 activities:
+  - place: Google Summer of Code 2018
+    location: Shanghai, China
+    title: Mentor
+    dates: Mar 2018 -- Aug 2018
+    area: Language Server Protocol
   - place: Google Code-in 2017
     location: Shanghai, China
     title: Mentor
@@ -192,6 +197,9 @@ honors:
     year: 2014
 
 contributions:
+  - name: kubeflow/hp-tuning
+    url: https://github.com/kubeflow/hp-tuning
+    details: Maintain the project
   - name: kubeflow/tf-operator
     url: https://github.com/kubeflow/tf-operator
     details: Maintain the project
